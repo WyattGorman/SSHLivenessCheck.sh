@@ -1,0 +1,12 @@
+# SSHLivenessCheck.sh Hosts File
+# Comment out hosts with #
+# Seperate fields by a single tab
+#
+# user@host:	Defines the host to connect to, will be passed directly to
+#		ssh as user@host.
+# Challenge:	Command or set of commands (i.e. cat /dev/null; hostname) to run on SSH client
+# Reponse:	Expected reponse from the host.
+# SSH Options:	Optional additional SSH options.
+#
+#user@host	Challenge	Response	SSH Options (Optional)
+#user@srvrhost	hostname	srvrhost	-X
